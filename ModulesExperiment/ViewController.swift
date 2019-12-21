@@ -10,11 +10,28 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var buttonStackView: UIStackView!
+    
+    var snakeModels: [CoreModel] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        snakeModels = SnakesDao.fetchSnakes()
+        for model in snakeModels {
+            let button = UIButton(type: .system)
+            button.setTitle(model.title, for: .normal)
+            button.addTarget(self, action: #selector(snakeButtonPressed(_:)), for: .touchUpInside)
+            buttonStackView.addArrangedSubview(button)
+        }
     }
-
-
+    
+    @objc private func snakeButtonPressed(_ sender: UIButton) {
+        guard let buttonIndex = buttonStackView.arrangedSubviews.firstIndex(of: sender) else { return }
+        guard snakeModels.count > buttonIndex else { return }
+        let snakeModel = snakeModels[buttonIndex]
+        
+        pushTo(CoreModelViewController(model: snakeModel))
+    }
 }
 
