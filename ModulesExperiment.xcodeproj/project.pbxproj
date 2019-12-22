@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,17 +13,28 @@
 		5C3430C723AE884C0076E2E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3430C523AE884C0076E2E1 /* Main.storyboard */; };
 		5C3430C923AE884D0076E2E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3430C823AE884D0076E2E1 /* Assets.xcassets */; };
 		5C3430CC23AE884D0076E2E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3430CA23AE884D0076E2E1 /* LaunchScreen.storyboard */; };
-		5C3430D523AE8C390076E2E1 /* CoreModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3430D323AE8C390076E2E1 /* CoreModelViewController.swift */; };
-		5C3430D823AE8D3F0076E2E1 /* CoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3430D723AE8D3F0076E2E1 /* CoreModel.swift */; };
-		5C3430DD23AE96C30076E2E1 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 5C3430DC23AE96C30076E2E1 /* Kingfisher */; };
-		5C3430E023AE98BE0076E2E1 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5C3430DF23AE98BE0076E2E1 /* SnapKit */; };
-		5C3430E423AE9DD30076E2E1 /* CoreModelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C3430E223AE9DD30076E2E1 /* CoreModelViewController.xib */; };
-		5C3430E623AEA37E0076E2E1 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3430E523AEA37E0076E2E1 /* ImageLoader.swift */; };
-		5C3430E823AEA6210076E2E1 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3430E723AEA6210076E2E1 /* Navigation.swift */; };
-		5C3430F123AEBA8F0076E2E1 /* CoreRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3430F023AEBA8F0076E2E1 /* CoreRepository.swift */; };
 		5C3430F623AEC23F0076E2E1 /* SnakesDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3430F523AEC23F0076E2E1 /* SnakesDao.swift */; };
 		5C3430F823AECE950076E2E1 /* snakes.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C3430F723AECE950076E2E1 /* snakes.json */; };
+		5CEDBBE523AF167D0002FCC9 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEDBBE423AF167D0002FCC9 /* Core.framework */; };
+		5CEDBBE623AF167D0002FCC9 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEDBBE423AF167D0002FCC9 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5CEDBC0723AF1C620002FCC9 /* CoreRepository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEDBC0623AF1C620002FCC9 /* CoreRepository.framework */; };
+		5CEDBC0823AF1C620002FCC9 /* CoreRepository.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEDBC0623AF1C620002FCC9 /* CoreRepository.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5CEDBBC723AF125B0002FCC9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5CEDBBE623AF167D0002FCC9 /* Core.framework in Embed Frameworks */,
+				5CEDBC0823AF1C620002FCC9 /* CoreRepository.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5C3430BC23AE884C0076E2E1 /* ModulesExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModulesExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,14 +45,11 @@
 		5C3430C823AE884D0076E2E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C3430CB23AE884D0076E2E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C3430CD23AE884D0076E2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C3430D323AE8C390076E2E1 /* CoreModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreModelViewController.swift; sourceTree = "<group>"; };
-		5C3430D723AE8D3F0076E2E1 /* CoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreModel.swift; sourceTree = "<group>"; };
-		5C3430E223AE9DD30076E2E1 /* CoreModelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoreModelViewController.xib; sourceTree = "<group>"; };
-		5C3430E523AEA37E0076E2E1 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
-		5C3430E723AEA6210076E2E1 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
-		5C3430F023AEBA8F0076E2E1 /* CoreRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreRepository.swift; sourceTree = "<group>"; };
 		5C3430F523AEC23F0076E2E1 /* SnakesDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakesDao.swift; sourceTree = "<group>"; };
 		5C3430F723AECE950076E2E1 /* snakes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = snakes.json; sourceTree = "<group>"; };
+		5CEDBBC423AF125B0002FCC9 /* ImageLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ImageLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CEDBBE423AF167D0002FCC9 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CEDBC0623AF1C620002FCC9 /* CoreRepository.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CoreRepository.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,8 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C3430DD23AE96C30076E2E1 /* Kingfisher in Frameworks */,
-				5C3430E023AE98BE0076E2E1 /* SnapKit in Frameworks */,
+				5CEDBBE523AF167D0002FCC9 /* Core.framework in Frameworks */,
+				5CEDBC0723AF1C620002FCC9 /* CoreRepository.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +70,7 @@
 			children = (
 				5C3430BE23AE884C0076E2E1 /* ModulesExperiment */,
 				5C3430BD23AE884C0076E2E1 /* Products */,
+				5CEDBBC323AF125B0002FCC9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,15 +93,19 @@
 				5C3430C823AE884D0076E2E1 /* Assets.xcassets */,
 				5C3430CA23AE884D0076E2E1 /* LaunchScreen.storyboard */,
 				5C3430CD23AE884D0076E2E1 /* Info.plist */,
-				5C3430D323AE8C390076E2E1 /* CoreModelViewController.swift */,
-				5C3430D723AE8D3F0076E2E1 /* CoreModel.swift */,
-				5C3430E223AE9DD30076E2E1 /* CoreModelViewController.xib */,
-				5C3430E523AEA37E0076E2E1 /* ImageLoader.swift */,
-				5C3430E723AEA6210076E2E1 /* Navigation.swift */,
-				5C3430F023AEBA8F0076E2E1 /* CoreRepository.swift */,
 				5C3430F523AEC23F0076E2E1 /* SnakesDao.swift */,
 			);
 			path = ModulesExperiment;
+			sourceTree = "<group>";
+		};
+		5CEDBBC323AF125B0002FCC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CEDBC0623AF1C620002FCC9 /* CoreRepository.framework */,
+				5CEDBBE423AF167D0002FCC9 /* Core.framework */,
+				5CEDBBC423AF125B0002FCC9 /* ImageLoader.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +118,7 @@
 				5C3430B823AE884C0076E2E1 /* Sources */,
 				5C3430B923AE884C0076E2E1 /* Frameworks */,
 				5C3430BA23AE884C0076E2E1 /* Resources */,
+				5CEDBBC723AF125B0002FCC9 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -112,8 +126,6 @@
 			);
 			name = ModulesExperiment;
 			packageProductDependencies = (
-				5C3430DC23AE96C30076E2E1 /* Kingfisher */,
-				5C3430DF23AE98BE0076E2E1 /* SnapKit */,
 			);
 			productName = ModulesExperiment;
 			productReference = 5C3430BC23AE884C0076E2E1 /* ModulesExperiment.app */;
@@ -125,6 +137,9 @@
 		5C3430B423AE884C0076E2E1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "Brad Patras";
@@ -144,8 +159,6 @@
 			);
 			mainGroup = 5C3430B323AE884C0076E2E1;
 			packageReferences = (
-				5C3430DB23AE96C30076E2E1 /* XCRemoteSwiftPackageReference "Kingfisher" */,
-				5C3430DE23AE98BE0076E2E1 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 5C3430BD23AE884C0076E2E1 /* Products */;
 			projectDirPath = "";
@@ -162,7 +175,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C3430F823AECE950076E2E1 /* snakes.json in Resources */,
-				5C3430E423AE9DD30076E2E1 /* CoreModelViewController.xib in Resources */,
 				5C3430CC23AE884D0076E2E1 /* LaunchScreen.storyboard in Resources */,
 				5C3430C923AE884D0076E2E1 /* Assets.xcassets in Resources */,
 				5C3430C723AE884C0076E2E1 /* Main.storyboard in Resources */,
@@ -176,13 +188,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C3430F123AEBA8F0076E2E1 /* CoreRepository.swift in Sources */,
 				5C3430C423AE884C0076E2E1 /* ViewController.swift in Sources */,
-				5C3430D523AE8C390076E2E1 /* CoreModelViewController.swift in Sources */,
 				5C3430F623AEC23F0076E2E1 /* SnakesDao.swift in Sources */,
-				5C3430E823AEA6210076E2E1 /* Navigation.swift in Sources */,
-				5C3430E623AEA37E0076E2E1 /* ImageLoader.swift in Sources */,
-				5C3430D823AE8D3F0076E2E1 /* CoreModel.swift in Sources */,
 				5C3430C023AE884C0076E2E1 /* AppDelegate.swift in Sources */,
 				5C3430C223AE884C0076E2E1 /* SceneDelegate.swift in Sources */,
 			);
@@ -382,38 +389,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		5C3430DB23AE96C30076E2E1 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/onevcat/Kingfisher";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.12.0;
-			};
-		};
-		5C3430DE23AE98BE0076E2E1 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		5C3430DC23AE96C30076E2E1 /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5C3430DB23AE96C30076E2E1 /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
-		};
-		5C3430DF23AE98BE0076E2E1 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5C3430DE23AE98BE0076E2E1 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5C3430B423AE884C0076E2E1 /* Project object */;
 }

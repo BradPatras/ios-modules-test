@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../CoreRepository/CoreRepository.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Core/Core.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../ImageLoader/ImageLoader.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:ModulesExperiment.xcodeproj">
+   </FileRef>
+</Workspace>
