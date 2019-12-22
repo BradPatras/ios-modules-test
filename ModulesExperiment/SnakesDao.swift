@@ -7,6 +7,8 @@
 //
 
 import Foundation
+import Core
+import CoreRepository
 
 class SnakesDao {
     static func fetchSnakes() -> [CoreModel] {

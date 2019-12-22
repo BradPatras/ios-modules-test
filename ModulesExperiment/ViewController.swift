@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Core
+
 
 class ViewController: UIViewController {
 
@@ -31,7 +33,7 @@ class ViewController: UIViewController {
         guard snakeModels.count > buttonIndex else { return }
         let snakeModel = snakeModels[buttonIndex]
         
-        pushTo(CoreModelViewController(model: snakeModel))
+        navigationController?.pushViewController(CoreModelViewController(model: snakeModel), animated: true)
     }
 }
 
