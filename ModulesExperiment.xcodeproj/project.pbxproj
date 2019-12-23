@@ -14,7 +14,6 @@
 		5C3430C923AE884D0076E2E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3430C823AE884D0076E2E1 /* Assets.xcassets */; };
 		5C3430CC23AE884D0076E2E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C3430CA23AE884D0076E2E1 /* LaunchScreen.storyboard */; };
 		5C3430F623AEC23F0076E2E1 /* SnakesDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3430F523AEC23F0076E2E1 /* SnakesDao.swift */; };
-		5C3430F823AECE950076E2E1 /* snakes.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C3430F723AECE950076E2E1 /* snakes.json */; };
 		5CEDBBE523AF167D0002FCC9 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEDBBE423AF167D0002FCC9 /* Core.framework */; };
 		5CEDBBE623AF167D0002FCC9 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEDBBE423AF167D0002FCC9 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5CEDBC0723AF1C620002FCC9 /* CoreRepository.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEDBC0623AF1C620002FCC9 /* CoreRepository.framework */; };
@@ -46,7 +45,6 @@
 		5C3430CB23AE884D0076E2E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C3430CD23AE884D0076E2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C3430F523AEC23F0076E2E1 /* SnakesDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakesDao.swift; sourceTree = "<group>"; };
-		5C3430F723AECE950076E2E1 /* snakes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = snakes.json; sourceTree = "<group>"; };
 		5CEDBBC423AF125B0002FCC9 /* ImageLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ImageLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CEDBBE423AF167D0002FCC9 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CEDBC0623AF1C620002FCC9 /* CoreRepository.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CoreRepository.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,7 +83,6 @@
 		5C3430BE23AE884C0076E2E1 /* ModulesExperiment */ = {
 			isa = PBXGroup;
 			children = (
-				5C3430F723AECE950076E2E1 /* snakes.json */,
 				5C3430BF23AE884C0076E2E1 /* AppDelegate.swift */,
 				5C3430C123AE884C0076E2E1 /* SceneDelegate.swift */,
 				5C3430C323AE884C0076E2E1 /* ViewController.swift */,
@@ -174,7 +171,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C3430F823AECE950076E2E1 /* snakes.json in Resources */,
 				5C3430CC23AE884D0076E2E1 /* LaunchScreen.storyboard in Resources */,
 				5C3430C923AE884D0076E2E1 /* Assets.xcassets in Resources */,
 				5C3430C723AE884C0076E2E1 /* Main.storyboard in Resources */,

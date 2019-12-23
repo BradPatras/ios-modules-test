@@ -5,7 +5,7 @@
       location = "group:../CoreRepository/CoreRepository.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../Core/Core.xcodeproj">
+      location = "group:/Users/bradpatras/ios/Core/CoreView.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:../ImageLoader/ImageLoader.xcodeproj">
