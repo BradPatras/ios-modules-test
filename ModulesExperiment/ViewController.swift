@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Core
+import CoreView
 
 
 class ViewController: UIViewController {

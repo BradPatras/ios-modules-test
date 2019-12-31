@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Core
+import CoreView
 import CoreRepository
 
 class SnakesDao {
