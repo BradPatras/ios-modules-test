@@ -2,13 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../CoreRepository/CoreRepository.xcodeproj">
+      location = "group:CoreRepository/CoreRepository.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:/Users/bradpatras/ios/Core/CoreView.xcodeproj">
+      location = "group:Core/CoreView.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../ImageLoader/ImageLoader.xcodeproj">
+      location = "group:ImageLoader/ImageLoader.xcodeproj">
    </FileRef>
    <FileRef
       location = "container:ModulesExperiment.xcodeproj">
