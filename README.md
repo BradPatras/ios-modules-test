@@ -16,7 +16,7 @@ View framework for the screens in the app.  Currently the only view besides the 
 
 ------
 ### ImageLoader
-Provides UIImageView extensions for asynchronously loading images.  Currently just wrapping Kingfisher api but if I wanted to swap out Kingfisher for something else in the future it would be really simple and require no changes to the main app.
+Provides UIImageView extensions for asynchronously loading images.  Currently just wrapping [Kingfisher](https://github.com/onevcat/Kingfisher) apis but if I wanted to swap out Kingfisher for something else in the future it would be really simple and require no changes to the main app.
 
 &nbsp;
 
