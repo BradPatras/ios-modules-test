@@ -12,7 +12,7 @@ Contains class for fetching data that the app uses.  In this app the data is jus
 
 ------
 ### CoreView
-View framework for the screens in the app.  Currently the only view besides the main screen is the detail page so the fact that it gets its own module seems kinda redundant but for the sake of the demo i'll keep it in.
+View framework for the screens in the app.  Currently the only view besides the main screen is the detail page so the fact that it gets its own module seems kinda redundant but it's just for the sake of learning.
 
 ------
 ### ImageLoader
